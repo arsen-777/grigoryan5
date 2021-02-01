@@ -450,3 +450,60 @@ main {
     }
 }
 // masin style end
+
+//main two style start
+
+main {
+    
+
+    .main_two{
+        .services_two{
+            .services_block{
+                
+                
+                .cover{
+
+                img{
+                    margin: 0 15px;
+                    max-width: 400px;
+                    max-height: 400px;
+                    display: block;
+                    background-attachment: fixed;
+                    width: 100%;
+                    background-repeat:no-repeat;
+                    background-size:cover;
+                    background-position: 0% 0%;
+                    float:left;
+                    
+                   
+                }
+                p {
+                    margin-left: 10px;
+                    width: 100%;
+                    text-align: justify;
+                }
+
+            }
+             
+            }
+            .service_img {
+                width: 100%;
+                margin-top:20px;
+                display: flex;
+                justify-content: center;
+                flex-flow: row wrap;
+                align-items: center;
+                
+                img {
+                    display: block;
+                    width: 300px;
+                    height: 300px;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+
+}
+
+//main two style end

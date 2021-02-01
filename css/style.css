@@ -502,4 +502,48 @@ main .main .offer_items .offer_item button:hover {
     margin-bottom: 20px;
   }
 }
+
+main .main_two .services_two .services_block .cover img {
+  margin: 0 15px;
+  max-width: 400px;
+  max-height: 400px;
+  display: block;
+  background-attachment: fixed;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 0%;
+  float: left;
+}
+
+main .main_two .services_two .services_block .cover p {
+  margin-left: 10px;
+  width: 100%;
+  text-align: justify;
+}
+
+main .main_two .services_two .service_img {
+  width: 100%;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main_two .services_two .service_img img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  padding: 0 10px;
+}
 /*# sourceMappingURL=style.css.map */
